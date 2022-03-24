@@ -1,0 +1,53 @@
+/* making this position relative means that when we make the header position absolute
+then it will be relative to this div not the whole page. */
+.herobanner {
+	position: relative;
+}
+
+.herobanner__img {
+	height: calc(100vh - 130px);
+	width: 100%;
+	object-fit: cover;
+	margin: 0;
+	padding: 0;
+}
+
+.herobanner__header {
+	position: absolute;
+	width: 100%;
+	top: 130px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.herobanner__header__wrapper {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.herobanner__header__h1 {
+	font-weight: 900;
+	font-size: 3rem;
+	color: white;
+}
+
+.herobanner__header__h3 {
+	font-weight: 300;
+	font-size: 1.5rem;
+	margin-top: 20px;
+	color: white;
+}
+
+.herobanner__header__img {
+	position: absolute;
+	top: 0;
+	opacity: 0.1;
+	height: 380px;
+}

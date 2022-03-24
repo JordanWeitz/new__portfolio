@@ -1,0 +1,36 @@
+.navbar {
+	display: flex;
+	height: 130px;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.navbar__logo {
+	margin-right: 100px;
+	cursor: pointer;
+}
+
+.navbar__img {
+	height: 90px;
+	width: 150px;
+	cursor: pointer;
+}
+
+.navbar__button {
+	height: 50px;
+	width: 120px;
+	border-radius: 100px;
+	background-color: white;
+	color: #1c3339;
+	border-color: #1c3339;
+	font-weight: 700;
+	font-size: 18px;
+	transition: all 0.3s ease-in-out;
+	cursor: pointer;
+}
+
+.navbar__button:hover {
+	background-color: #1c3339;
+	color: white;
+	border-color: #1c3339;
+}
