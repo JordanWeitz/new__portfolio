@@ -53,3 +53,8 @@
 	width: 80vw;
 	height: 100%;
 }
+
+.skillscard__icon {
+	height: 50px;
+	width: 50px;
+}

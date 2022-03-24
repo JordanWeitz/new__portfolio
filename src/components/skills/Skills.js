@@ -1,6 +1,6 @@
 import React from "react";
 import "./skills.css";
-import { BsCodeSquare } from "react-icons/bs";
+import { BsCodeSquare, BsFillPeopleFill } from "react-icons/bs";
 
 function Skills() {
 	return (
@@ -49,7 +49,7 @@ function Skills() {
 						</ul>
 					</div>
 					<div className="skillscard">
-						<BsCodeSquare className="skillscard__icon" />
+						<BsFillPeopleFill className="skillscard__icon" />
 						<h4 className="skillscard__header">Leader</h4>
 						<p className="skillscard__p">
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
