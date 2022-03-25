@@ -1,99 +1,101 @@
 .skills {
-	background-color: white;
-	height: 130vh;
+  background-color: white;
+  height: 130vh;
 }
 
 .skills__green__wrapper {
-	background-color: #182b31;
-	height: 65vh;
+  background-color: #182b31;
+  height: 65vh;
 }
 
 .skills__green__wrapper__header {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .skills__green__title {
-	display: flex;
-	font-weight: 900;
-	font-size: 2.5rem;
-	width: 100%;
-	justify-content: center;
-	height: 200px;
-	align-items: flex-end;
-	color: white;
+  display: flex;
+  font-weight: 900;
+  font-size: 2.5rem;
+  width: 100%;
+  justify-content: center;
+  /* height: 200px; */
+  margin-top: 5%;
+  align-items: flex-end;
+  color: white;
 }
 
 .skills__green__p {
-	display: flex;
-	font-weight: 300;
-	font-size: 1.25rem;
-	width: 30vw;
-	justify-content: center;
-	height: 100px;
-	align-items: flex-end;
-	color: white;
+  display: flex;
+  font-weight: 300;
+  font-size: 1.25rem;
+  width: 30vw;
+  justify-content: center;
+  margin-top: -3%;
+  /* height: 100px; */
+  align-items: flex-end;
+  color: white;
 }
 
 .skills__cards {
-	display: flex;
-	width: 100%;
-	align-items: center;
-	justify-content: center;
-	margin-top: -20vh;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: -5%;
 }
 
 .skills__cards__wrapper {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	/* text-align: center; */
-	background-color: white;
-	border: 1px solid lightgrey;
-	border-radius: 20px;
-	width: 80vw;
-	height: 100%;
-	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  background-color: white;
+  border: 1px solid lightgrey;
+  border-radius: 20px;
+  width: 80vw;
+  height: 100%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .skills__cards__wrapper > div:first-child {
-	border-right: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
 }
 
 .skillscard {
-	padding: 60px;
-	padding-top: 100px;
-	padding-bottom: 100px;
-	text-align: center;
-	display: inline;
-	line-height: 1.6;
+  padding: 60px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+  display: inline;
+  line-height: 1.6;
 }
 
 .skillscard__icon {
-	height: 50px;
-	width: 50px;
+  height: 50px;
+  width: 50px;
 }
 
 .skillscard__title {
-	font-weight: 900;
-	font-size: 1.2rem;
-	color: #1c3339;
+  font-weight: 900;
+  font-size: 1.2rem;
+  color: #1c3339;
 }
 
 .skillscard__header {
-	font-weight: 900;
-	font-size: 2rem;
-	color: #1c3339;
+  font-weight: 900;
+  font-size: 2rem;
+  color: #1c3339;
 }
 
 .skillscard__list {
-	list-style-type: none;
-	text-align: center;
+  list-style-type: none;
+  text-align: center;
 }
 /* TODO: this is a duct tape hack to center the bottom list which is off the center for
 some reason */
 .skillscard__list > li {
-	margin-left: -30px;
+  margin-left: -30px;
 }
