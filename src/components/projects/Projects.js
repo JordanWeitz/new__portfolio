@@ -22,25 +22,29 @@ function Projects() {
 						className="project__card"
 						key={proj.id}
 						onMouseOver={() => setIsActive(proj.id)}
+						onMouseLeave={() => setIsActive(null)}
 					>
 						<img src={proj.img} alt="" className="project__card__img" />
-						<p
-							className={`project__card__text ${
+						<div
+							className={`project__card__hover ${
 								isActive === proj.id ? "" : "hidden"
 							}`}
 						>
-							{proj.desc}
-						</p>
-						<a
-							href={proj.link}
-							className={`project__card__link ${
-								isActive === proj.id ? "" : "hidden"
-							}`}
-						>
-							<button className="project__card__button">
-								{proj.buttonText}
-							</button>
-						</a>
+							<div className="project__card__wrapper">
+								<p
+									className={`project__card__text ${
+										isActive === proj.id ? "" : "hidden"
+									}`}
+								>
+									{proj.desc}
+								</p>
+								<a href={proj.link}>
+									<button className="project__card__button">
+										{proj.buttonText}
+									</button>
+								</a>
+							</div>
+						</div>
 					</div>
 				))}
 			</div>

@@ -3,7 +3,7 @@ export const projCardData = [
 		id: 1,
 		desc: "A full stack web application (React, Node, MongoDB) that allows users to register, login and post images of their living space transformations!",
 		img: "https://i.imgur.com/grcs1LK.jpeg",
-		link: "https://www.jrwebdev.com/",
+		link: "https://clean-room-2e4f6.web.app/",
 		buttonText: "View Website",
 	},
 	{

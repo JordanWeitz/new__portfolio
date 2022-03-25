@@ -27,6 +27,7 @@
 	flex-wrap: wrap;
 	width: 100%;
 	margin-top: 10vh;
+	gap: 0rem;
 }
 
 .project__card {
@@ -34,20 +35,74 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	width: 30%;
-	height: 30vh;
+	width: 40%;
+	height: 40vh;
 	background-color: white;
-	border: 1px solid lightgrey;
+
 	border-radius: 20px;
 	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 	margin-bottom: 10vh;
+	position: relative;
 }
 
 .project__card__img {
 	width: 100%;
 	height: 100%;
 	border-radius: 20px;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
+
+.project__card__hover {
+	/* display: none; */
+	position: absolute;
+	width: 100%;
+	height: 40vh;
+	background-color: #182b31a9;
+	border-radius: 20px;
+	transition: all 0.3s ease-in-out;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 20px;
+}
+
+.project__card__wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	transition: all 1s ease-in-out;
+}
+
+.project__card__text {
+	font-size: 1.25rem;
+	font-weight: 500;
+	color: white;
+	margin-bottom: 20px;
+	transition: all 0.3s ease-in-out;
+}
+
+.project__card__button {
+	border: 1px solid white;
+	background-color: rgba(255, 255, 255, 0);
+	border-radius: 10px;
+	width: 120px;
+	height: 50px;
+	font-size: 14px;
+	font-weight: 700;
+	color: white;
+	transition: all 0.3s ease-in-out;
+}
+
+.project__card__button:hover {
+	background-color: white;
+	color: #182b31;
+	cursor: pointer;
+}
+
 .hidden {
 	display: none;
 }
