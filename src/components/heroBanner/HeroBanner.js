@@ -2,11 +2,13 @@ import React from "react";
 import "./heroBanner.css";
 import hero from "../../assets/heroBanner/hero.jpg";
 import code from "../../assets/heroBanner/code.png";
+import Navbar from "../navbar/Navbar";
 
 function HeroBanner() {
 	return (
 		<div className="herobanner">
 			<img src={hero} alt="" className="herobanner__img" />
+
 			<div className="herobanner__header">
 				<div className="herobanner__header__wrapper">
 					<h1 className="herobanner__header__h1">Jr Web Developer & Leader</h1>

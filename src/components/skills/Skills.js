@@ -23,19 +23,25 @@ function Skills() {
 				<div className="skills__cards__wrapper">
 					<div className="skillscard">
 						<BsCodeSquare className="skillscard__icon" />
+						<br />
+						<br />
 						<h4 className="skillscard__header">Full Stack Developer</h4>
 						<p className="skillscard__p">
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
 							culpa dolore odio a nemo omnis sequi dolor, dolores libero
 							molestias?
 						</p>
+						<br />
+						<br />
 						<h5 className="skillscard__title">Languages:</h5>
 						<p className="skillscard__p">
 							<span className="skillscard__p__span">React</span>, Java, Node,
-							SQL, PL/SQL
+							SQL, PL/SQL, HTML, CSS, JavaScript, JORDAN
 						</p>
+						<br />
+						<br />
 						<h5 className="skillscard__title">Dev Tools:</h5>
-						<ul className="skillscard__p">
+						<ul className="skillscard__list">
 							<li>
 								<span className="skillscard__p__span">VSCode,</span>
 							</li>
@@ -50,19 +56,25 @@ function Skills() {
 					</div>
 					<div className="skillscard">
 						<BsFillPeopleFill className="skillscard__icon" />
+						<br />
+						<br />
 						<h4 className="skillscard__header">Leader</h4>
 						<p className="skillscard__p">
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
 							culpa dolore odio a nemo omnis sequi dolor, dolores libero
 							molestias?
 						</p>
+						<br />
+						<br />
 						<h5 className="skillscard__title">Volunteering:</h5>
 						<p className="skillscard__p">
 							<span className="skillscard__p__span">DEFEND</span> - Building
 							social media centered around accountability
 						</p>
+						<br />
+						<br />
 						<h5 className="skillscard__title">Duties Include:</h5>
-						<ul className="skillscard__p">
+						<ul className="skillscard__list">
 							<li>
 								<span className="skillscard__p__span">Scheduling</span>
 							</li>
