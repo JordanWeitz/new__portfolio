@@ -8,12 +8,16 @@
 .navbar__logo {
 	margin-right: 100px;
 	cursor: pointer;
+	display: flex;
+	align-items: center;
 }
 
 .navbar__img {
-	height: 90px;
+	height: 100px;
 	width: 150px;
 	cursor: pointer;
+	object-fit: cover;
+	transform: rotate(45deg) translateY(-20%);
 }
 
 .navbar__button {

@@ -2,6 +2,7 @@
 then it will be relative to this div not the whole page. */
 .herobanner {
 	position: relative;
+	width: 100vw;
 }
 
 .herobanner__img {
