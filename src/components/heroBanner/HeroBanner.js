@@ -1,4 +1,5 @@
 import React from "react";
+import ReactTypingEffect from "react-typing-effect";
 import "./heroBanner.css";
 import hero from "../../assets/heroBanner/hero.jpg";
 import code from "../../assets/heroBanner/code.png";
@@ -15,7 +16,9 @@ function HeroBanner() {
 					<h3 className="herobanner__header__h3">
 						I love solving problems - and challenging myself.
 					</h3>
-					<img src={code} alt="" className="herobanner__header__img" />
+					<div className="herobanner__img__wrapper">
+						<img src={code} alt="" className="herobanner__header__img" />
+					</div>
 				</div>
 			</div>
 		</div>

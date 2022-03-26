@@ -59,9 +59,23 @@ then it will be relative to this div not the whole page. */
 	color: white;
 }
 
+.herobanner__img__wrapper {
+	background-color: yellow;
+	z-index: 10;
+}
+
 .herobanner__header__img {
 	position: absolute;
 	top: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
 	opacity: 0.1;
 	height: 380px;
+}
+
+@media only screen and (max-width: 768px) {
+	.herobanner__header__img {
+		margin-top: 100px;
+	}
 }

@@ -10,6 +10,11 @@ function Navbar() {
 				<a href="/">
 					<img src={logo} alt="logo" className="navbar__img" />
 				</a>
+				<div className="navbar__x">
+					<span className="navbar__x__bar"></span>
+					<span className="navbar__x__bar"></span>
+					<span className="navbar__x__bar"></span>
+				</div>
 			</div>
 			<button className="navbar__button">Say Hey</button>
 		</div>

@@ -33,8 +33,28 @@
 	cursor: pointer;
 }
 
+.navbar__x {
+	display: none;
+}
+
+.navbar__x__bar {
+	height: 50px;
+	width: 50px;
+	background-color: yellow;
+}
+
 .navbar__button:hover {
 	background-color: #1c3339;
 	color: white;
 	border-color: #1c3339;
+}
+
+@media only screen and (max-width: 768px) {
+	.navbar__button {
+		display: none;
+	}
+
+	.navbar__x {
+		display: block;
+	}
 }
