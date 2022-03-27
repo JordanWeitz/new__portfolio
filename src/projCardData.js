@@ -10,13 +10,14 @@ export const projCardData = [
 		id: 2,
 		desc: "I coded my portfolio site using React. Click below to view the code!",
 		img: "https://i.imgur.com/bFDwox8.jpeg",
-		link: "https://www.jrwebdev.com/",
+		link: "https://github.com/JordanWeitz/new__portfolio",
 		buttonText: "View Github",
 	},
 	{
 		id: 3,
 		desc: "COMING SOON",
 		img: "https://i.imgur.com/XqQZQZL.png",
-		link: "https://www.jrwebdev.com/",
+		link: "https://github.com/JordanWeitz",
+		buttonText: "Coming Soon",
 	},
 ];

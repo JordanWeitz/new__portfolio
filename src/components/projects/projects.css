@@ -13,12 +13,14 @@
 
 .project__title__header {
 	text-align: center;
+	color: #80abb1;
 	font-size: 2rem;
 	font-weight: 700;
 }
 
 .project__title__p {
 	margin-bottom: 50px;
+	color: #182b31;
 }
 
 .project__title__p > a {

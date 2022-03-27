@@ -104,9 +104,11 @@
 	position: relative;
 	margin-right: 10px;
 	text-align: center;
+	transition: all 0.3s ease-in-out;
 }
 
 .foot__links__icon {
+	display: block;
 	position: absolute;
 	top: 0;
 	bottom: 0;
@@ -117,4 +119,11 @@
 	margin-top: 7px;
 	height: 25px;
 	width: 25px;
+	transition: all 0.3s ease-in-out;
+}
+
+.foot__links__icon:hover,
+.foot__links__wrapper:hover {
+	color: #80abb1;
+	background-color: white;
 }
