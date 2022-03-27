@@ -47,9 +47,19 @@
 	}
 }
 
-@media only screen and (max-width: 425) {
+@media only screen and (max-width: 425px) {
 	.navbar {
 		justify-content: center;
 		width: 100vw;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	/* .navbar__button {
+		position: absolute;
+		top: 0;
+	} */
+	.navbar__logo {
+		margin-right: 25px !important;
 	}
 }

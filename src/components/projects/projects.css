@@ -139,10 +139,41 @@
 	.project__card__img {
 		width: 450px !important;
 	}
+	.project__card__hover,
+	.project__card__text {
+		opacity: 1;
+	}
 }
 
 @media only screen and (max-width: 425px) {
-	body {
-		width: 100vw;
+	.project__title {
+		margin-top: 5em;
+		justify-content: center;
+		text-align: center;
+	}
+	.project__title__p {
+		width: 70%;
+		text-align: center;
+		margin-left: 60px;
+	}
+
+	.project__card {
+		margin-bottom: 2em;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	.projects {
+		margin-top: 35em;
+	}
+	.project__card__text {
+		width: 80%;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.project__card__text {
+		width: 60%;
+		font-size: 1em;
 	}
 }

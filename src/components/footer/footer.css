@@ -1,5 +1,5 @@
 .footer {
-	height: 40em;
+	height: 30em;
 	background-color: #80abb1;
 	z-index: 0;
 	margin-top: 250px;
@@ -129,6 +129,11 @@
 }
 
 @media only screen and (max-width: 768px) {
+	.footer {
+		height: 40em;
+		margin-top: 150px;
+	}
+
 	.connect {
 		flex-direction: column;
 		height: 15em;
@@ -149,5 +154,29 @@
 
 	.foot__links {
 		margin-bottom: 2em;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	.connect {
+		border-radius: 0px;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.connect {
+		height: 20em;
+	}
+	.connect__header {
+		text-align: center;
+		margin-top: 10px;
+	}
+	.footer__text {
+		margin-top: 20em;
+	}
+	.footer__p {
+		width: 80%;
+		text-align: center;
+		margin-left: 30px;
 	}
 }

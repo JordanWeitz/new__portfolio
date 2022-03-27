@@ -79,3 +79,13 @@ then it will be relative to this div not the whole page. */
 		/* margin-top: 100px; */
 	}
 }
+
+@media only screen and (max-width: 425px) {
+	.herobanner__header__h1 {
+		width: 80vw;
+	}
+	.herobanner__header__img {
+		margin-top: 150px;
+		padding-left: 20px;
+	}
+}

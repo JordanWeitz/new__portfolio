@@ -11,7 +11,9 @@ function Navbar() {
 					<img src={logo} alt="logo" className="navbar__img" />
 				</a>
 			</div>
-			<button className="navbar__button">Say Hey</button>
+			<a href="mailto:jweitz1972@gmail.com">
+				<button className="navbar__button">Say Hey</button>
+			</a>
 		</div>
 	);
 }

@@ -111,6 +111,10 @@ some reason */
 }
 
 @media only screen and (max-width: 768px) {
+	.skills__green__title {
+		margin-top: 100px;
+	}
+
 	.skills__cards__wrapper {
 		margin-top: 2em;
 		flex-direction: column;
@@ -127,7 +131,51 @@ some reason */
 }
 
 @media only screen and (max-width: 425px) {
-	body {
-		width: 100vw;
+	.skills__green__title {
+		width: 70%;
+		text-align: center;
+	}
+
+	.skills__green__p {
+		max-width: 80%;
+		text-align: center;
+	}
+	.skillscard {
+		padding: 25px;
+		width: 90%;
+	}
+
+	.skills__cards__wrapper {
+		width: 100%;
+	}
+
+	.skills__cards {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	.skills__green__title {
+		font-size: 1.5rem;
+	}
+
+	.skills__green__p {
+		font-size: 1rem;
+		margin-bottom: 50px;
+	}
+
+	.skillscard__title {
+		font-size: 1rem;
+	}
+
+	.skillscard__header {
+		font-size: 1.5rem;
+	}
+
+	.skillscard__p__span {
+		font-size: 1rem;
+	}
+	.skills__cards {
+		margin-top: -400px;
 	}
 }
