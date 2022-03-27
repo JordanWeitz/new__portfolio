@@ -3,6 +3,7 @@
 	height: 120px;
 	justify-content: space-around;
 	align-items: center;
+	width: 100vw;
 }
 
 .navbar__logo {
@@ -33,16 +34,6 @@
 	cursor: pointer;
 }
 
-.navbar__x {
-	display: none;
-}
-
-.navbar__x__bar {
-	height: 50px;
-	width: 50px;
-	background-color: yellow;
-}
-
 .navbar__button:hover {
 	background-color: #1c3339;
 	color: white;
@@ -50,11 +41,15 @@
 }
 
 @media only screen and (max-width: 768px) {
-	.navbar__button {
-		display: none;
+	.navbar {
+		justify-content: space-around;
+		width: 100vw;
 	}
+}
 
-	.navbar__x {
-		display: block;
+@media only screen and (max-width: 425) {
+	.navbar {
+		justify-content: center;
+		width: 100vw;
 	}
 }

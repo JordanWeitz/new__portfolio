@@ -1,25 +1,33 @@
 * {
 	margin: 0px;
 	font-family: "Inter", sans-serif;
+	/* this trick will show you the outline of every node */
+}
+body {
+	width: 100vw;
+	overflow: scroll;
+	overflow-x: hidden;
 }
 
+html {
+}
 ::-webkit-scrollbar {
-	width: 20px;
+	width: 0; /* Remove scrollbar space */
+	background: transparent; /* Optional: just make scrollbar invisible */
 }
-
-/* Track */
-::-webkit-scrollbar-track {
-	box-shadow: inset 0 0 5px lightgrey;
-	border-radius: 10px;
-}
-
-/* Handle */
+/* Optional: show position indicator in red */
 ::-webkit-scrollbar-thumb {
-	background: #182b31;
-	border-radius: 10px;
+	background: #ff0000;
 }
 
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-	background: #80abb1;
+@media only screen and (max-width: 768px) {
+	body {
+		width: 100vw;
+	}
+}
+
+@media only screen and (max-width: 425px) {
+	body {
+		width: 100vw;
+	}
 }
