@@ -1,5 +1,5 @@
 .footer {
-	height: 50vh;
+	height: 40em;
 	background-color: #80abb1;
 	z-index: 0;
 	margin-top: 250px;
@@ -126,4 +126,28 @@
 .foot__links__wrapper:hover {
 	color: #80abb1;
 	background-color: white;
+}
+
+@media only screen and (max-width: 768px) {
+	.connect {
+		flex-direction: column;
+		height: 15em;
+		margin-bottom: 5em;
+	}
+	.connect__p {
+		max-width: 80%;
+		margin-top: 20px;
+	}
+	.connect__button {
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	.footer__text {
+		margin-top: 15em;
+	}
+
+	.foot__links {
+		margin-bottom: 2em;
+	}
 }

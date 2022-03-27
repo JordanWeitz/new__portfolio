@@ -122,3 +122,27 @@
 	opacity: 0;
 	transition: all 0.3s ease-in-out;
 }
+
+@media only screen and (max-width: 1024px) {
+	.project__title {
+		margin-top: 12em;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.projects {
+		margin-top: 50em;
+	}
+	.project__card__wrapper {
+		width: 450px !important;
+	}
+	.project__card__img {
+		width: 450px !important;
+	}
+}
+
+@media only screen and (max-width: 425px) {
+	body {
+		width: 100vw;
+	}
+}

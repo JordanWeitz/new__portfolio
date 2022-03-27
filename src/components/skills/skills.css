@@ -6,7 +6,7 @@
 }
 
 .skills__green__wrapper {
-	background-color: red;
+	background-color: #182b31;
 	height: 800px;
 }
 
@@ -108,4 +108,26 @@
 some reason */
 .skillscard__list > li {
 	margin-left: -30px;
+}
+
+@media only screen and (max-width: 768px) {
+	.skills__cards__wrapper {
+		margin-top: 2em;
+		flex-direction: column;
+		width: 80%;
+	}
+
+	.skills__cards__wrapper > div:first-child {
+		border-bottom: 1px solid rgb(235, 235, 235);
+		border-right: none;
+	}
+	.skills__green__p {
+		margin-bottom: 100px;
+	}
+}
+
+@media only screen and (max-width: 425px) {
+	body {
+		width: 100vw;
+	}
 }
