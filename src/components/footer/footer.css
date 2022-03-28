@@ -84,6 +84,7 @@
 	font-size: 1.25rem;
 	font-weight: 700;
 	margin-top: 20px;
+	text-align: center;
 }
 
 .foot__links {
@@ -157,9 +158,13 @@
 	}
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 382px) {
 	.connect {
 		border-radius: 0px;
+	}
+	.footer__p {
+		width: 80%;
+		margin-left: 30px;
 	}
 }
 

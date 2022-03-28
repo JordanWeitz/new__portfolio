@@ -179,3 +179,29 @@ some reason */
 		margin-top: -400px;
 	}
 }
+
+@media only screen and (max-width: 280px) {
+	.skills__green__title {
+		font-size: 1.25rem;
+	}
+
+	.skills__green__p {
+		font-size: 0.75rem;
+		margin-bottom: 50px;
+	}
+
+	.skillscard__title {
+		font-size: 0.75rem;
+	}
+
+	.skillscard__header {
+		font-size: 1.25rem;
+	}
+
+	.skillscard__p__span {
+		font-size: 0.75rem;
+	}
+	.skills__cards {
+		margin-top: -400px;
+	}
+}

@@ -2,6 +2,7 @@
 	margin: 0px;
 	font-family: "Inter", sans-serif;
 	/* this trick will show you the outline of every node */
+	/* outline: 1px solid red; */
 }
 body {
 	width: 100vw;

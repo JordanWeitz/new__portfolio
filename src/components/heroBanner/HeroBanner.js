@@ -3,6 +3,7 @@ import ReactTypingEffect from "react-typing-effect";
 import "./heroBanner.css";
 import hero from "../../assets/heroBanner/hero.jpg";
 import code from "../../assets/heroBanner/code.png";
+import resume from "../../assets/resume/resume.pdf";
 import Navbar from "../navbar/Navbar";
 
 function HeroBanner() {
@@ -16,9 +17,9 @@ function HeroBanner() {
 					<h3 className="herobanner__header__h3">
 						I love solving problems - and challenging myself.
 					</h3>
-					<div className="herobanner__img__wrapper">
-						<img src={code} alt="" className="herobanner__header__img" />
-					</div>
+					<a href={resume}>
+						<button className="herobanner__header__btn">Resume</button>
+					</a>
 				</div>
 			</div>
 		</div>
