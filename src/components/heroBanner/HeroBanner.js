@@ -1,9 +1,7 @@
 import React from "react";
-import ReactTypingEffect from "react-typing-effect";
 import "./heroBanner.css";
 import hero from "../../assets/heroBanner/hero.jpg";
-import code from "../../assets/heroBanner/code.png";
-import resume from "../../assets/resume/resume.pdf";
+import resume from "../../assets/resume/JordansSoftwareDevResume.pdf";
 import Navbar from "../navbar/Navbar";
 
 function HeroBanner() {
